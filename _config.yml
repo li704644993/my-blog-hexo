@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 李挺
+title: ting'blog
 subtitle: 博客
 description:
 keywords:
@@ -78,7 +78,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 ## theme: hexo-theme-aircloud
-theme: ad
+theme: ayer
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

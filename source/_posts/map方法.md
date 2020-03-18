@@ -16,6 +16,7 @@ r = arr.map(parseInt);
 ```
 
 ### 理论结果应该是1,2,3,实际结果却为1, NaN, NaN  
+<!--more-->
 #### 由于map()接收的回调函数可以有3个参数：callback(currentValue, index, array)，通常我们仅需要第一个参数，而忽略了传入的后面两个参数。不幸的是，parseInt(string, radix)没有忽略第二个参数，导致实际执行的函数分别是: (此处有引用/超链接) 
 - parseInt('0', 0); // 0, 按十进制转换. 
 - parseInt('1', 1); // NaN, 没有一进制.  
